@@ -1,0 +1,80 @@
+body {
+  background-color: #0a1b2b;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  scroll-behavior: smooth;
+}
+
+header {
+  padding: 20px;
+  background-color: #0a1b2b;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  height: 80px;
+}
+
+h1 {
+  color: #4fc3f7;
+  margin: 10px 0 0;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: #4fc3f7;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.services, .packages {
+  padding: 40px 20px;
+}
+
+.package-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.card {
+  background-color: #122c44;
+  border-radius: 10px;
+  padding: 20px;
+  width: 250px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card h3 {
+  color: #4fc3f7;
+}
+
+.card p {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #d0e8f2;
+}
